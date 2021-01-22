@@ -1,0 +1,35 @@
+html{
+    display: flex;
+}
+h1{
+    font-family: "Oswald", "Roboto Light", sans-serif;
+    color: black;
+}
+header{
+    font-family: "Source Code Pro", sans-serif;
+    color: black;
+}
+div.number{
+    color: dimgrey;
+}
+div.email{
+    font-family: "Roboto Light", sans-serif;
+    color: red;
+}
+hr{
+    border: solid black 2px ;
+}
+body{
+    color: dimgrey;
+}
+p{
+    font-family: "Source Code Pro", sans-serif;
+}
+h3{
+    font-family: "Oswald", "Roboto Light", sans-serif;
+    color: black;
+}
+h4{
+    font-family: "Source Code Pro", sans-serif;
+    color: red;
+}
