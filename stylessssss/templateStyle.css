@@ -1,0 +1,13 @@
+.container{
+    border: solid 1px black;
+}
+.row{
+    border: solid 1px black;
+    padding: 10px;
+    margin: 15px;
+}
+aside{
+    border: solid 1px black;
+    padding: 10px;
+    margin: 15px;
+}
