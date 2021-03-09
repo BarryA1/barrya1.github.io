@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> About Me</title>
+    <link rel="stylesheet" href="Document2.css">
+</head>
+<body>
+<heading>
+    <nav>
+
+    </nav>
+    <h1>Barry Allen</h1>
+</heading>
+<hr>
+<main>
+    <fieldset>
+        <legend>Contact Details</legend>
+        <label>Email:<br/>
+            <input type="text" name="email" required="required"/></label><br/>
+        <label>Mobile:<br/>
+            <input type="text" name="mobile"required="required"/></label><br/>
+    </fieldset>
+    <form method="get" action="">
+        <label for="lair">Today's Date: </label>
+        <input type="date" name="lair"/>
+        <p>Lair Name:
+            <input type="text" name="name" size="20" maxlenght="15" required="required"/>
+        <p>What size (in square feet) should the lair be?
+            <label for="volume">Size</label>
+            <input type="range" id="start" name="volume"
+                   min="500 ft" max="4000 ft"/>
+        </p>
+        <p>Where should the Lair be located?
+            <select name="Location">
+                <option value="Mountain">Mountain</option>
+                <option value="Cave">Cave</option>
+                <option value="Bunker">Bunker</option>
+                <option value="Bunker">Ice Fortress</option>
+                <option value="Bunker">Penthouse</option>
+            </select>
+        </p>
+        <p>What should the temperature be?</p>
+        <input type="radio" name="genre" value="dank"/>Dank
+        <input type="radio" name="genre" value="cold"/>Cold
+        <input type="radio" name="genre" value="humid"/>Humid
+        <input type="radio" name="genre" value="freezing"/>Freezing
+        <input type="radio" name="genre" value="wet"/>Wet
+        </p>
+        <p>What will this lair look like?</p>
+        <textarea name="comments" ></textarea>
+        <br/>
+        <input type="submit" value="submit"/>
+    </form>
+</main>
+</body>
+</html>
