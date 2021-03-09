@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> About Me</title>
+		<link rel="stylesheet" href="Document2.css"> 
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a href="me1.html">About Me</a>
+				<a href="me2.html">Favorite Places</a>
+				<a href="me3.html">Favorite Food</a>
+				<a href="me3.html#Drinks">Favorite Drinks</a>
+				<a href="me4.html">Superhero's</a>
+				<a href="me5.html">Super User Input</a>
+			</nav>
+			<h1>Barry Allen</h1>
+		</header>
+	<hr>
+		<main>
+			<fieldset>
+			<label>Email:<br/>
+			<input type="email" name="email" required="required"/></label>
+			<br/>
+			<label>Mobile:<br/>
+			<input type="tel" name="tel"required="required"/></label>
+			<br/>
+			</fieldset>
+			<form method="get" action="">
+			<label for="lair">Today's Date: </label><br/>
+			<input type="date" name="lair"/>
+			<p>Lair Name:<br/>
+			<input type="text" name="name" size="20" maxlenght="15" required="required"/>
+			<p>What size (in square feet) should the lair be?
+			    <label for="volume">Size</label>
+			    <input type="range" id="start" name="volume"
+			           min="500 ft" max="4000 ft"/>
+			</p>
+			<p>Where should the Lair be located?
+			<select name="Location">
+			<option value="Mountain">Mountain</option>
+			<option value="Cave">Cave</option>
+			<option value="Bunker">Bunker</option>
+			<option value="Bunker">Ice Fortress</option>
+			<option value="Bunker">Penthouse</option>
+			</select>
+			</p>
+			<p>What should the temperature be?</p>
+			<input type="radio" name="genre" value="dank"/>Dank
+			<input type="radio" name="genre" value="cold"/>Cold
+			<input type="radio" name="genre" value="humid"/>Humid
+			<input type="radio" name="genre" value="freezing"/>Freezing
+			<input type="radio" name="genre" value="wet"/>Wet
+			</p>
+			<p>What will this lair look like?</p>
+			<textarea name="comments" ></textarea>
+			<br/>
+			<input type="submit" value="submit"/>
+			</form>
+		</main>
+		<footer>
+			<h5><p> For more information and questions about this webpage please reach me at;</p></h5>
+			<br>
+			<a href="mailto:flash@barry_allen.com?Subject=Hello%20again" target="_top">
+			flash@barry_allen.com
+			</a>
+		</footer>
+	</body>
+</html>
