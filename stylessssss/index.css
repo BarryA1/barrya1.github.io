@@ -1,5 +1,6 @@
 .container{
     border: solid 1px black;
+    background-color: #ffffff;
 }
 .row{
     border: solid 1px black;
@@ -24,4 +25,7 @@ iframe{
 }
 p{
     font-size: small;
+}
+body{
+    background-color: #000000;
 }
