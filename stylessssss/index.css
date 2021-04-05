@@ -33,3 +33,6 @@ body{
     height: 340px;
     width: 100%;
 }
+h4{
+    border: solid 1px black;
+}
