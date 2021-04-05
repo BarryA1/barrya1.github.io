@@ -8,6 +8,7 @@
     margin: 15px;
 }
 aside{
+    border: solid 1px black;
     padding: 10px;
     margin: 15px;
 }
@@ -24,7 +25,6 @@ iframe{
 }
 p{
     font-size: small;
-    border: solid 1px black;
 }
 body{
     background-color: #000000;
